@@ -1,28 +1,52 @@
-Breast cancer diagnosis predictor
-Overview
-The Breast Cancer Diagnosis app is a machine learning-powered tool designed to assist medical professionals in diagnosing breast cancer. Using a set of measurements, the app predicts whether a breast mass is benign or malignant. It provides a visual representation of the input data using a radar chart and displays the predicted diagnosis and probability of being benign or malignant. The app can be used by manually inputting the measurements or by connecting it to a cytology lab to obtain the data directly from a machine. The connection to the laboratory machine is not a part of the app itself.
+# 🩺 Breast Cancer Diagnosis Predictor
 
-The app was developed as a machine learning exercice from the public dataset Breast Cancer Wisconsin (Diagnostic) Data Set. Note that this dataset may not be reliable as this project was developed for educational purposes in the field of machine learning only and not for professional use.
+## 📖 Overview
 
-A live version of the application can be found on Streamlit Community Cloud.
+The **Breast Cancer Diagnosis Predictor** is a machine learning-powered Streamlit app designed to assist medical professionals and researchers in diagnosing breast cancer. Using a set of key measurements, the app predicts whether a breast mass is **benign** or **malignant**.
 
-Installation
-You can run this inside a virtual environment to make it easier to manage dependencies. I recommend using conda to create a new environment and install the required packages. You can create a new environment called breast-cancer-diagnosis by running:
+This tool visually presents input data using a **radar chart** and provides:
+- A predicted diagnosis
+- The probability of being benign or malignant
 
-conda create -n breast-cancer-diagnosis python=3.10 
-Then, activate the environment:
+> ⚠️ **Disclaimer:** This app is for **educational purposes only** and **not intended for clinical use**. It was built using the publicly available [Breast Cancer Wisconsin (Diagnostic) Dataset](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Diagnostic)).
 
+---
+
+## 🌐 Live App
+
+You can try the live version hosted on **Streamlit Community Cloud**:  
+👉 [Live App Link](https://your-app-url.streamlit.app) <!-- Replace with actual link -->
+
+---
+
+## 🛠️ Installation
+
+You can run this app inside a virtual environment to isolate dependencies.
+
+### 1. Create a Conda environment (recommended)
+```bash
+conda create -n breast-cancer-diagnosis python=3.10
+2. Activate the environment
 conda activate breast-cancer-diagnosis
-Then, activate the environment:
-
-conda activate breast-cancer-diagnosis
-To install the required packages, run:
-
+3. Install required dependencies
 pip install -r requirements.txt
-This will install all the necessary dependencies, including Streamlit, OpenCV, and scikit-image.
+This will install all necessary packages including:
 
-Usage
-To start the app, simply run the following command:
+streamlit
 
+opencv-python
+
+scikit-image
+
+scikit-learn
+
+and others
+
+▶️ Usage
+Once installed, run the app using:
 streamlit run app/main.py
-This will launch the app in your default web browser. You can then upload an image of cells to analyze and adjust the various settings to customize the analysis. Once you are satisfied with the results, you can export the measurements to a CSV file for further analysis.
+
+🙋‍♀️ Author
+Tanuja Sharma
+📧 Email: tanujas605@gmail.com
+🔗 GitHub: Tanuja2123
