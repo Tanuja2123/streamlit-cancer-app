@@ -12,11 +12,6 @@ This tool visually presents input data using a **radar chart** and provides:
 
 ---
 
-## 🌐 Live App
-
-You can try the live version hosted on **Streamlit Community Cloud**:  
-👉 [Live App Link](https://your-app-url.streamlit.app) <!-- Replace with actual link -->
-
 ---
 
 ## 🛠️ Installation
