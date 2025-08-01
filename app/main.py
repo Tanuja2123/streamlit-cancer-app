@@ -4,6 +4,9 @@ import pandas as pd
 import plotly.graph_objects as go
 import numpy as np
 
+import os
+os.environ["STREAMLIT_HOME"] = "/tmp"
+
 
 def get_clean_data():
   data = pd.read_csv("data/data.csv")
